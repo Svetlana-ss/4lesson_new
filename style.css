@@ -4,4 +4,12 @@
 }
 .body {
     font-family: 'Franklin Gothic', sans-serif;
+    background-image: url('image/maket.jpg');
+    background-color: #141b23;
+    background-position: right top;
+    background-repeat: no-repeat;
+}
+.nav {
+    color: #4e555f;
+    text-decoration: none;
 }
