@@ -1,0 +1,7 @@
+@font-face {
+    font-family: 'Franklin Gothic';
+    src: url('fon/framd.ttf');
+}
+.body {
+    font-family: 'Franklin Gothic', sans-serif;
+}
