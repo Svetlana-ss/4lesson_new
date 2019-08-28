@@ -1,15 +1,53 @@
 @font-face {
     font-family: 'Franklin Gothic';
-    src: url('fon/framd.ttf');
+    src: url('fon/subset-FranklinGothic-Medium.eot');
+    src: url('fon/subset-FranklinGothic-Medium.eot?#iefix') format('embedded-opentype'),
+        url('fon/subset-FranklinGothic-Medium.woff2') format('woff2'),
+        url('fon/subset-FranklinGothic-Medium.woff') format('woff'),
+        url('fon/subset-FranklinGothic-Medium.ttf') format('truetype'),
+        url('fon/subset-FranklinGothic-Medium.svg#FranklinGothic-Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
 }
-.body {
+body {
     font-family: 'Franklin Gothic', sans-serif;
     background-image: url('image/maket.jpg');
     background-color: #141b23;
     background-position: right top;
     background-repeat: no-repeat;
+    color: #ffffff;
+    text-shadow: 0 0 4px rgba(0, 0, 0, 0.65);
+    font-weight: 500;
 }
-.nav {
+.link {
     color: #4e555f;
     text-decoration: none;
+    font-size: 15px;
+    line-height: 18px;
+    margin-right: 15px;
+}
+.UM
+{
+    margin-right: 26px;
+    font-size: 17px;
+}
+.nav {
+    margin-top: 65px;
+    margin-left: 55px;
+}
+.h1 {
+    margin: 71px 748px 10px 96px;
+    font-size: 25px;
+    line-height: 30px;
+}
+.text {
+    margin: 10px 438px 10px 95px;
+    font-size: 13px;
+    line-height: 15.6px;
+}
+.footer {
+    margin: 607px 822px 50px 54px;
+    color: #3e444a;
+    font-size: 12px;
+    line-height: 14.4px;
 }
